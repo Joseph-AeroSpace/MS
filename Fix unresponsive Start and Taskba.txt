@@ -1,0 +1,7 @@
+Windows11 Fix unresponsive Start and Taskba
+
+1. cmd
+2. reg delete HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\IrisService /f && shutdown -r -t 0
+
+Link:
+https://youtu.be/DWRWjECB-yE?si=AU3VmZtR3im-rdgg
