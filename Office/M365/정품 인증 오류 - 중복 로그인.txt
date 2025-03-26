@@ -1,0 +1,11 @@
+Microsoft 365 앱 정품 인증 오류 "조직의 다른 계정이 이 컴퓨터에 이미 로그인되어 있습니다."
+
+1. M365 앱 내에서 로그인 계정을 모두 로그아웃
+2. M365 관련 프로그램 모두 종료
+3. 윈도우 > 설정 > 계정 > 회사 또는 학교 엑세스 > 연결된 계정 > 연결 끊기
+4. 계정 인증 백업 폴더 생성
+5. 다음 위치에 있는 모든 폴더를 백업 폴더에 이동시킨 다음 다시 로그인
+	%localappdata%/Microsoft/OneAuth
+	%localappdata%/Microsoft/IdentityCache
+
+Link: https://learn.microsoft.com/ko-kr/office/troubleshoot/activation/another-account-already-signed-in
